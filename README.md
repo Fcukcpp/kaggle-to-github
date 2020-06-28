@@ -29,3 +29,4 @@ repo=https://github.com/dhruvkalia13/test.git
 # Key notes
   - The dataset should not be more than [100mb](https://help.github.com/en/github/managing-large-files/conditions-for-large-files), otherwise it won't be pushed to git
   - All the changes in the repo will be pushed along with the downloaded datasets and kernels
+  - Since, we are using configparser, it won't work below Python 3
