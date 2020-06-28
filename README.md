@@ -10,7 +10,7 @@ pip install kaggle
   - Move this **kaggle.json** to *C:\Users\username\\.kaggle\\*
 
 # Setup
-  - Copy this config.ini to your repo and update below fields
+  - Copy this [config.ini](https://github.com/dhruvkalia13/kaggle-to-github/blob/master/config.ini) to your repo and update below fields
 ```sh
 [kaggle]
 username=dhruvkalia
@@ -21,7 +21,7 @@ dataset_output_path=./input/water/
 [git]
 repo=https://github.com/dhruvkalia13/test.git
 ```
-  - Run the kaggle_to_github.py at the root of your project and enjoy the show!
+  - Run the [kaggle_to_github.py](https://github.com/dhruvkalia13/kaggle-to-github/blob/master/kaggle_to_github.py) at the root of your project and enjoy the show!
 >If the dir is not a git repo, it will run **git init** and will add the git remote url before making a push.
 
 ![alt text](https://github.com/dhruvkalia13/kaggle-to-github/blob/master/screen-capture.png)
